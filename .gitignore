@@ -1,0 +1,9 @@
+# Ignore everything by default
+*
+
+# Allow only the three required files
+!dataset.csv
+!README.md
+!.gitignore
+# Allow the SQL script file
+!SQL script.sql
