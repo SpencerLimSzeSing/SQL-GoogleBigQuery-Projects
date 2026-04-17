@@ -11,9 +11,9 @@ This project utilizes SQL to aggregate yearly performance data across different 
 - **Size:** 10,000 rows of global agricultural and climatic data
 - **Features:** Year, Country, Region, Crop Type, Average Temperature, Total Precipitation, CO2 Emissions, Crop Yield (MT per HA), Extreme Weather Events, and Soil Health Index 
 
-[View Project on Looker Studio](https://9)
+[View Project on Looker Studio](https://datastudio.google.com/s/pdKTIuOlge0)
 
-[View BigQuery SQL as download file](https:9)
+[View BigQuery SQL as download file](https://github.com/SpencerLimSzeSing/SQL-GoogleBigQuery-Projects/blob/main/SQL%20script.sql)
 
 
 ## Tools Used:
