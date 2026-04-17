@@ -1,9 +1,8 @@
 # SQL and Google BigQuery Projects
-This repository documents a SQL and Google BigQuery project focused on analyzing the relationship between climate variables and global agricultural productivity. This project demonstrates the ability to process large environmental datasets, perform complex normalization using SQL, and generate actionable insights to address global food security challenges. 
-
+This project develops an end-to-end data pipeline on Google Cloud Platform (GCP) to analyze how rising global temperatures and extreme weather events affect agricultural productivity across the dataset.
 
 ## Project Title: Comprehensive Agricultural & Climate Trend Analysis
-This project utilizes SQL to aggregate yearly performance data across different climate zones and crop types. By calculating metrics such as average crop yield, total precipitation, and extreme weather frequency, the analysis identifies specific vulnerabilities in global food systems. Furthermore, advanced SQL techniques were used to calculate normalized climate impacts for specific crops like rice, allowing for a direct comparison of environmental stress across diverse geographic regions.
+This repository documents a SQL and Google BigQuery project focused on analyzing the relationship between climate variables and global agricultural productivity. This project demonstrates the ability to process large environmental datasets, aggregate yearly performance data across different climate zones and crop types, with the help of data visualtion in data studio and generate actionable insights to address global food security challenges. 
 
 ### Dataset
 - **Source:** Kaggle (Global Agriculture Climate Impact Dataset)
@@ -14,6 +13,24 @@ This project utilizes SQL to aggregate yearly performance data across different 
 [View Project on Looker Studio](https://datastudio.google.com/s/pdKTIuOlge0)
 
 [View BigQuery SQL as download file](https://github.com/SpencerLimSzeSing/SQL-GoogleBigQuery-Projects/blob/main/SQL%20script.sql)
+
+
+## 1. Technical Architecture 
+- Data Ingestion: Automated via Kaggle API and decoupled using Google Cloud Pub/Sub messaging
+
+- Data Storage: Raw data is stored in Google Cloud Storage (GCS) buckets for consistency and durability
+
+- Data Processing: Google Dataflow (Apache Beam) handles cleaning and type formatting to create a "robust foundation" for analysis
+
+- Data Analytics: Google BigQuery serves as the primary "big SQL database" for complex transformations
+
+- Data Visualization: Looker Studio provides the final "storytelling" layer through interactive dashboards
+
+![Figure 1 - Proposed pipeline diagram](/image/pipeline%20diagram.png)
+*Figure 1: The end-to-end GCP architecture, from Kaggle API ingestion to Looker Studio visualization.*
+
+
+
 
 
 ## Tools Used:
