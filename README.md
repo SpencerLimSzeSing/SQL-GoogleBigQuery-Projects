@@ -12,6 +12,7 @@ This project utilizes SQL to aggregate yearly performance data across different 
 - **Features:** Year, Country, Region, Crop Type, Average Temperature, Total Precipitation, CO2 Emissions, Crop Yield (MT per HA), Extreme Weather Events, and Soil Health Index 
 
 [View Project on Looker Studio](https://9)
+
 [View BigQuery SQL as download file](https:9)
 
 
