@@ -5,7 +5,7 @@ This project develops an end-to-end data pipeline on Google Cloud Platform (GCP)
 This repository documents a SQL and Google BigQuery project focused on analyzing the relationship between climate variables and global agricultural productivity. This project demonstrates the ability to process large environmental datasets, aggregate yearly performance data across different climate zones and crop types, with the help of data visualtion in data studio and generate actionable insights. 
 
 ## Dataset
-- **Source:** Kaggle (Global Agriculture Climate Impact Dataset)
+- **Source:** [Kaggle (Global Agriculture Climate Impact Dataset)](https://www.kaggle.com/datasets/talhachoudary/global-agriculture-climate-impact-dataset/data)
 - **File:** `dataset.csv`
 - **Size:** 10,000 rows of global agricultural and climatic data
 - **Features:** Year, Country, Region, Crop Type, Average Temperature, Total Precipitation, CO2 Emissions, Crop Yield (MT per HA), Extreme Weather Events, and Soil Health Index 
