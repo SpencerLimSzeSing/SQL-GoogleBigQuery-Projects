@@ -24,9 +24,10 @@ This repository documents a SQL and Google BigQuery project focused on analyzing
 - Data Visualization: **Looker Studio** provides the final "storytelling" layer for creating interactive dashboards and visualizing the interplay between climate and yield.
 [View Project on Looker Studio](https://datastudio.google.com/s/pdKTIuOlge0)
 
-![Figure 1 - Proposed pipeline diagram](/image/pipelinediagram.png)
-
-*Figure 1: The end-to-end GCP architecture, from Kaggle API ingestion to Looker Studio visualization.*
+<div align="center">
+  <img src="image/pipelinediagram.png" alt="Figure 1 - Proposed pipeline diagram">
+  <p><i>Figure 1: The end-to-end GCP architecture, from Kaggle API ingestion to Looker Studio visualization.</i></p>
+</div>
 
 ## Data Insights & Outcomes 
 - The analysis successfully identified several critical relationships between climate variables and food security
