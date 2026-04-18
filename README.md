@@ -24,7 +24,7 @@ This repository documents a SQL and Google BigQuery project focused on analyzing
 - Data Visualization: **Looker Studio** provides the final "storytelling" layer for creating interactive dashboards and visualizing the interplay between climate and yield.
 [View Project on Looker Studio](https://datastudio.google.com/s/pdKTIuOlge0)
 
-[Figure 1 - Proposed pipeline diagram](/image/pipelinediagram.png)
+![Figure 1 - Proposed pipeline diagram](/image/pipelinediagram.png)
 *Figure 1: The end-to-end GCP architecture, from Kaggle API ingestion to Looker Studio visualization.*
 
 ## Data Insights & Outcomes 
@@ -36,9 +36,9 @@ This repository documents a SQL and Google BigQuery project focused on analyzing
 
 - Environmental Correlation: Identified a slight positive correlation between CO2 emissions and average temperature, with rice and cotton identified as the highest-emitting crops
 
-[Figure 2 - Geographic Trend](/image/GeographicTrend.png)
-[Figure 3 - Yearly Trendby Climate Metrics](/image/YearlyTrendbyClimateMetrics.png)
-[Figure 4 - Dashboard](/image/Dashboard.png)
+![Figure 2 - Geographic Trend](/image/GeographicTrend.png)
+![Figure 3 - Yearly Trendby Climate Metrics](/image/YearlyTrendbyClimateMetrics.png)
+![Figure 4 - Dashboard](/image/Dashboard.png)
 
 
 
