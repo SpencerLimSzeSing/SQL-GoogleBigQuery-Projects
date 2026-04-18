@@ -4,41 +4,43 @@ This project develops an end-to-end data pipeline on Google Cloud Platform (GCP)
 ## Project Title: Comprehensive Agricultural & Climate Trend Analysis
 This repository documents a SQL and Google BigQuery project focused on analyzing the relationship between climate variables and global agricultural productivity. This project demonstrates the ability to process large environmental datasets, aggregate yearly performance data across different climate zones and crop types, with the help of data visualtion in data studio and generate actionable insights to address global food security challenges. 
 
-### Dataset
+## Dataset
 - **Source:** Kaggle (Global Agriculture Climate Impact Dataset)
 - **File:** `dataset.csv`
 - **Size:** 10,000 rows of global agricultural and climatic data
 - **Features:** Year, Country, Region, Crop Type, Average Temperature, Total Precipitation, CO2 Emissions, Crop Yield (MT per HA), Extreme Weather Events, and Soil Health Index 
 
-[View Project on Looker Studio](https://datastudio.google.com/s/pdKTIuOlge0)
 
+## Technical Architecture 
+- Data Ingestion: Automated via Kaggle API and decoupled using **Google Cloud Pub/Sub** messaging
+
+- Data Storage: Raw data is stored in **Google Cloud Storage (GCS)** for consistency and durability
+
+- Data Processing:**Google Dataflow** handles cleaning and type formatting 
+
+- Data Analytics: **Google BigQuery** serves as the primary "big SQL database" for complex transformations, analytics, and large-scale dataset management.
 [View BigQuery SQL as download file](https://github.com/SpencerLimSzeSing/SQL-GoogleBigQuery-Projects/blob/main/SQL%20script.sql)
 
+- Data Visualization: **Looker Studio** provides the final "storytelling" layer for creating interactive dashboards and visualizing the interplay between climate and yield.
+[View Project on Looker Studio](https://datastudio.google.com/s/pdKTIuOlge0)
 
-## 1. Technical Architecture 
-- Data Ingestion: Automated via Kaggle API and decoupled using Google Cloud Pub/Sub messaging
-
-- Data Storage: Raw data is stored in Google Cloud Storage (GCS) buckets for consistency and durability
-
-- Data Processing: Google Dataflow (Apache Beam) handles cleaning and type formatting to create a "robust foundation" for analysis
-
-- Data Analytics: Google BigQuery serves as the primary "big SQL database" for complex transformations
-
-- Data Visualization: Looker Studio provides the final "storytelling" layer through interactive dashboards
-
-![Figure 1 - Proposed pipeline diagram](/image/pipeline%20diagram.png)
+[Figure 1 - Proposed pipeline diagram](/image/pipelinediagram.png)
 *Figure 1: The end-to-end GCP architecture, from Kaggle API ingestion to Looker Studio visualization.*
 
+## Data Insights & Outcomes 
+- The analysis successfully identified several critical relationships between climate variables and food security
+
+- Climate Vulnerability: Tropical regions (e.g., Nigeria) show declining yields due to extreme weather, while temperate regions (e.g., USA) remain stable through technological adaptation
+
+- Crop Resilience: Cereals and grains show high stability, whereas cash crops (coffee, sugarcane) exhibit high volatility due to environmental sensitivity
+
+- Environmental Correlation: Identified a slight positive correlation between CO2 emissions and average temperature, with rice and cotton identified as the highest-emitting crops
+
+[Figure 2 - Geographic Trend](/image/GeographicTrend.png)
+[Figure 3 - Yearly Trendby Climate Metrics](/image/YearlyTrendbyClimateMetrics.png)
+[Figure 4 - Dashboard](/image/Dashboard.png)
 
 
-
-
-## Tools Used:
-- **Google BigQuery:** Served as the primary "big SQL database" for complex data transformations, analytics, and large-scale dataset management.
-- **Google Cloud Storage (GCS):** Used for secure, scalable storage of raw agricultural data buckets.
-- **Google Dataflow:** Employed for data preprocessing and cleaning to ensure a robust foundation for analysis.
-- **Google Cloud Pub/Sub:** Facilitated the initial data ingestion and messaging service to decouple the pipeline.
-- **Looker Studio:** Used for creating interactive dashboards and visualizing the interplay between climate and yield.
 
 ### Skills Demonstrated:
 ### SQL Querying and Data Management
