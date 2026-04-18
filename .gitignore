@@ -1,10 +1,13 @@
 # Ignore everything by default
 *
 
-# Allow only the three required files
+#  Allow the directory 
+!image/
+#  Allow everything INSIDE the directory
+!image/*
+
+# Allow your other root files
 !dataset.csv
 !README.md
 !.gitignore
-!image/
-# Allow the SQL script file
 !SQL script.sql
