@@ -25,6 +25,7 @@ This repository documents a SQL and Google BigQuery project focused on analyzing
 [View Project on Looker Studio](https://datastudio.google.com/s/pdKTIuOlge0)
 
 ![Figure 1 - Proposed pipeline diagram](/image/pipelinediagram.png)
+
 *Figure 1: The end-to-end GCP architecture, from Kaggle API ingestion to Looker Studio visualization.*
 
 ## Data Insights & Outcomes 
@@ -36,12 +37,9 @@ This repository documents a SQL and Google BigQuery project focused on analyzing
 
 - Environmental Correlation: Identified a slight positive correlation between CO2 emissions and average temperature, with rice and cotton identified as the highest-emitting crops
 
-![Figure 2 - Geographic Trend](image/GeographicTrend.png)
-![Figure 3 - Yearly Trendby Climate Metrics](image/YearlyTrendbyClimateMetrics.png)
-![Figure 4 - Dashboard](image/Dashboard.png)
-<img src="image/GeographicTrend.png" alt="Alt text" width="500" height="300">  
-<img src="image/YearlyTrendbyClimateMetrics.png" alt="Alt text" width="500" height="300">  
-<img src="image/Dashboard.png" alt="Alt text" width="500" height="300">  
+<img src="image/GeographicTrend.png" alt="Figure 2 - Geographic Trend" width="500" height="300">  
+<img src="image/YearlyTrendbyClimateMetrics.png" alt="Figure 3 - Yearly Trendby Climate Metricst" width="500" height="300">  
+<img src="image/Dashboard.png" alt="Figure 4 - Dashboard" width="500" height="300">  
 
 
 
