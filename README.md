@@ -38,11 +38,18 @@ This repository documents a SQL and Google BigQuery project focused on analyzing
 
 - Environmental Correlation: Identified a slight positive correlation between CO2 emissions and average temperature, with rice and cotton identified as the highest-emitting crops
 
-<img src="image/GeographicTrend.png" alt="Figure 2 - Geographic Trend" width="500" height="300">  
-<img src="image/YearlyTrendbyClimateMetrics.png" alt="Figure 3 - Yearly Trendby Climate Metricst" width="500" height="300">  
-<img src="image/Dashboard.png" alt="Figure 4 - Dashboard" width="500" height="300">  
-
-
+<div align="center">
+  <img src="image/GeographicTrend.png" alt="Figure 2 - Geographic Trend">
+  <p><i>Figure 2 - Geographic Trend</i></p>
+</div>
+<div align="center">
+  <img src="image/YearlyTrendbyClimateMetrics.png" alt="Figure  3 - Yearly Trendby Climate Metrics">
+  <p><i>Figure  3 - Yearly Trendby Climate Metrics</i></p>
+</div>
+<div align="center">
+  <img src="image/Dashboard.png" alt="Figure 4 - Dashboard">
+  <p><i>Figure 2 - Geographic Trend</i></p>
+</div>
 
 ### Skills Demonstrated:
 ### SQL Querying and Data Management
