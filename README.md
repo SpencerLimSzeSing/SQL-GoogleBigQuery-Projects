@@ -2,7 +2,22 @@
 This project develops an end-to-end data pipeline on Google Cloud Platform (GCP) to analyze how rising global temperatures and extreme weather events affect agricultural productivity across the dataset.
 
 ## Project Title: Comprehensive Agricultural & Climate Trend Analysis
-This repository documents a SQL and Google BigQuery project focused on analyzing the relationship between climate variables and global agricultural productivity. This project demonstrates the ability to process large environmental datasets, aggregate yearly performance data across different climate zones and crop types, with the help of data visualtion in data studio and generate actionable insights. 
+### Background
+Climate change is now one of the biggest risks to global food security. As temperatures rise, rainfall patterns shift, and extreme weather becomes more common, agricultural productivity takes a direct hit. Governments and agricultural organizations need solid data to spot vulnerable regions, track climate trends, and plan adaptation strategies.
+
+The challenge is that the data are scattered across multiple sources, making it hard to turn raw numbers into insights without scalable, cloud-based analytics. There is no centralized platform for agricultural stakeholders to answer questions:
+
+- Which countries have experienced the greatest decline in crop yield over time?
+- Which climate zones are most vulnerable to extreme weather events?
+- Which crop types are the most climate-resilient?
+- Does increasing temperature correspond to declining agricultural productivity?
+- Is there any observable relationship between CO₂ emissions and crop yield?
+- How has agricultural productivity shifted over time?
+
+Without large-scale analytics, these patterns stay buried in disconnected datasets instead of informing decisions.
+
+### Project Goal
+Build an end-to-end cloud analytics pipeline that turns raw climate and agriculture data into interactive dashboards — so users can track climate risks, compare performance across countries and crops, and spot long-term trends as they emerge.
 
 ## Dataset
 - **Source:** [Kaggle (Global Agriculture Climate Impact Dataset)](https://www.kaggle.com/datasets/talhachoudary/global-agriculture-climate-impact-dataset/data)
